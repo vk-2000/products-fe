@@ -22,10 +22,10 @@
     .sidebar {
         border-right: none;
         border-bottom: 2px solid rgba(193, 193, 193, 0.685);
-        flex-basis: 10%;
+        flex-basis: 30%;
     }
     .products {
         border-bottom: 2px solid rgba(193, 193, 193, 0.685);
-        flex-basis: 90%;
+        flex-basis: 70%;
     }
 }

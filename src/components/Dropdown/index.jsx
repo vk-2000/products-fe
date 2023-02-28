@@ -7,7 +7,7 @@ function Dropdown({ label, options, handleChange }) {
     <div>
       <label htmlFor="select">
         {label}
-        <select id="select" onChange={(e) => handleChange(e)}>
+        <select data-testid="select" id="select" onChange={(e) => handleChange(e)}>
           {options.map((option) => (
             <option value={option.value}>{option.label}</option>
           ))}

@@ -4,7 +4,7 @@ import './ProductCard.css';
 
 function ProductCard({ product }) {
   return (
-    <div className="card-body">
+    <div data-testid="product-card" className="card-body">
       <div className="card-img-container">
         <img src={product.imageUrl} alt={product.name} className="card-img" />
       </div>
