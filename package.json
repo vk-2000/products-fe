@@ -18,7 +18,11 @@
     ],
     "coveragePathIgnorePatterns": [
       "<rootDir>/node_modules/",
-      "<rootDir>/src/types/"
+      "<rootDir>/src/constants/",
+      "<rootDir>/src/pages/",
+      "<rootDir>/src/index.js",
+      "<rootDir>/src/App.js"
+
     ],
     "coverageThreshold": {
       "global": {

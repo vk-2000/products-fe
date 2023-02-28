@@ -21,7 +21,7 @@ describe('Dropdown', () => {
     ];
     const mockHandleChange = jest.fn();
     const { getByTestId } = render(<Dropdown label="Test Label" options={mockOptions} handleChange={mockHandleChange} />);
-    fireEvent.change(getByTestId('select'), { target: { value: 1 } });
+    fireEvent.change(getByTestId('Test Label'), { target: { value: 1 } });
     expect(mockHandleChange).toHaveBeenCalled();
   });
 });
